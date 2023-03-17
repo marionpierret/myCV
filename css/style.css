@@ -8,9 +8,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-weight: bold;
+}
+
+h6{
+color: white;
+font-style: italic;
 }
 
 img {
@@ -401,3 +405,35 @@ footer img{
 .footerLinks{
   margin-left: 50px
 }
+
+#personnality {
+  background-color: #8BBDBD;
+  color: white;
+  text-align: center;
+}
+
+#personnality .heading h2{
+  color: white;
+  margin-bottom: 0px
+}
+
+#path .heading h2 {
+  color: #8BBDBD;
+}
+
+#personnality img{
+  border: 5px white solid;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.175);
+}
+
+#personnality .bi{
+  margin-top: 10px;
+}
+
+
+.accordion{
+  --bs-accordion-active-color: #ffff !important;
+  --bs-accordion-active-bg: #8BBDBD !important;
+  --bs-accordion-btn-focus-border-color: #00BCD4 !important;
+}
+
